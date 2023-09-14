@@ -6,12 +6,12 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "client": "npm start --prefix frontend"
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Farid Benhamouda",
   "license": "ISC",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.3.1",
@@ -21,6 +21,7 @@
     "mongoose": "^7.4.5"
   },
   "devDependencies": {
+    "concurrently": "^8.2.1",
     "nodemon": "^3.0.1"
   }
 }
