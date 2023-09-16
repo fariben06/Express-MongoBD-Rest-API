@@ -38,7 +38,7 @@ h3 {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 20px;
   text-align: center;
 }
@@ -94,7 +94,7 @@ h3 {
 
 .goal {
   background-color: #f4f4f4;
-  margin: 10 0;
+  margin: 10px 0;
   padding: 20px 0 10px;
   position: relative;
 }
@@ -200,7 +200,7 @@ h3 {
   }
 }
 
-@media (max-width: 600pxpx) {
+@media (max-width: 600px) {
   .form {
     width: 90%;
   }
